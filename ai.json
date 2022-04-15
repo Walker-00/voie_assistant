@@ -1,0 +1,18 @@
+{"intents":
+[
+  {"tag": "greeting",
+  "patterns": ["Yo Man", "Hello", "Hi ai", "Hi man", "Hi Nano"],
+  "responses":  ["Hi", "Hello Sir", "Hello Walker", "Yes Sir"]},
+  {"tag": "create_note",
+  "patterns": ["Create new note", "New note", "Create a Note"],
+  "responses":  [""]},
+  {"tag": "add_todo",
+  "patterns": ["I wanna add my todo", "I want to todo", "add todo nano", "add a new todo nano"],
+  "responses":  [""]},
+  {"tag": "show_todos",
+  "patterns": ["Show my todos list", "Show my todos list Nano", "Show todos"],
+  "responses":  [""]},
+  {"tag": "exit",
+  "patterns": ["Music", "Bye Nano", "By Man", "Goodbye", "Bye Bye"],
+  "responses":  [""]}
+]}
